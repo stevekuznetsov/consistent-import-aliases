@@ -1,4 +1,10 @@
 # consistent-import-aliases
+
+# WARNING
+Even for all of my best efforts, this tool still has a small, to me random chance of having printer errors when re-writing a file.
+It is entirely unclear to me why this is or what specifically about those files causes the decorated AST library to fall over, but
+please use this tool with caution.
+
 Automation to ensure that consistent import aliases are used for packages across a Go project.
 
 Often, projects will develop implicit rules and patterns around aliasing imports of packages with generic names.
